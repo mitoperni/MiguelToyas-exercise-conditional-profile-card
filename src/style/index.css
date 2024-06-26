@@ -4,19 +4,22 @@
 }
 .filters li {
   display: inline-block;
-  max-width: 80px;
+  max-width: 100px;
   padding: 3px;
+  margin-right: 3px;
 }
 .filters li label {
   display: block;
   font-size: 12px;
   font-weight: 900;
+  margin-bottom: 5px;
 }
 .filters li input {
   width: 100%;
 }
 .filters li select {
   width: 100%;
+  margin: 0;
 }
 .widget {
   position: relative;
